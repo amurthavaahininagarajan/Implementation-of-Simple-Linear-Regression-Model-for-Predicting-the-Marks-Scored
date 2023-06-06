@@ -41,14 +41,14 @@ y_pred
 y_test
 #Graph plot for training data
 plt.scatter(x_train,y_train,color='black')
-plt.plot(x_train,regressor.predict(x_train),color='purple')
+plt.plot(x_train,regressor.predict(x_train),color='green')
 plt.title("Hours vs Scores(Training set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
 #Graph plot for test data
 plt.scatter(x_test,y_test,color='red')
-plt.plot(x_train,regressor.predict(x_train),color='blue')
+plt.plot(x_train,regressor.predict(x_train),color='purple')
 plt.title("Hours vs Scores(Testing set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
