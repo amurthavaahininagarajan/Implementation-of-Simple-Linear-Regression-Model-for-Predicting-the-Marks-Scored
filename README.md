@@ -59,6 +59,7 @@ plt.plot(X_test,regressor.predict(X_test),color="purple")
 plt.title("Hours vs Scores (Training Set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
+plt.show()cores")
 plt.show()
 */
 ```
